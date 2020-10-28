@@ -48,7 +48,4 @@ done
 # replace default ip
 sed -i 's/ipaddr:-"192.168.1.1"/ipaddr:-"10.0.2.222"/' package/base-files/files/bin/config_generate
 
-cp .github/.config .
-
-make defconfig
-cat .config
+cp .github/.config 
