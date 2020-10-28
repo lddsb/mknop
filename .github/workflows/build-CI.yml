@@ -8,7 +8,6 @@ env:
 jobs:
   build:
     runs-on: ubuntu-18.04
-    if: github.event_name == 'schedule' || github.event.action == 'run'
 
     steps:
       - name: Checkout
